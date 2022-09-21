@@ -1,5 +1,5 @@
-import app from './app.js';
-import config from './app/config/index.js';
+const app = require('./app');
+const config = require('./app/config');
 
 const PORT = config.app.port;
 app.listen(PORT, () => {
